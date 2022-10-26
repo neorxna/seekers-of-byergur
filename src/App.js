@@ -334,8 +334,9 @@ class Dude extends Actor {
         this.sideAnim.flipHorizontal = false
       }
     }
-    if (vel.y !== 0)
+    if (vel.y !== 0 && Math.abs(vel.y) > Math.abs(vel.x)) {
       this.graphics.use(vel.y < 0 ? this.backAnim : this.frontAnim)
+    }
     if (vel.x === 0 && vel.y === 0) this.graphics.use(this.idleAnim)
 
     if (this.vel.x < 5 && this.vel.x > -5) this.vel.x = 0
