@@ -237,7 +237,7 @@ function App () {
 
         // control player with wasd keys
         game.input.keyboard.on('hold', evt => {
-          const speed = 100
+          const speed = 10
           const dir = new Vector(0, 0)
           switch (evt.key) {
             case 'KeyW':
