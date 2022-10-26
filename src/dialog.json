@@ -1,0 +1,26 @@
+{
+  "RED BIRD": {
+    "prompt": "so you seek the fabled land of byergur. well.. you will have to find it yourself...",
+    "options": [
+      {
+        "text": "what can you tell me about byergur?",
+        "response": "byergur is a land of mystery and wonder. it is a land of magic and adventure. it is a land of... well.. you get the idea."
+      },
+      {
+        "text": "i'm not interested in byergur.",
+        "response": "well.. i guess you can go then."
+      },
+      {
+        "text": "can you recommend a way to get there?",
+        "response": "i can't help you with that."
+      },
+      {
+        "text": "you're not much help.",
+        "response": "you're not all that helpful yourself."
+      }
+    ]
+  },
+  "LONELY DOG": { "id": 0, "prompt": "you look familiar.", "options": [
+{ "text": "i don't think we've met.", "response": "you must have a doppelganger." }
+  ] },
+}
