@@ -97,7 +97,8 @@ function buildRoom () {
   })
 }
 
-const tileSize = 32
+const SCALE_FACTOR = 6
+const tileSize = 16 * SCALE_FACTOR
 
 const loader = new Loader([...Object.values(Resources)])
 
@@ -178,11 +179,6 @@ function App () {
           pos: new Vector(0, 0)
         })
 
-        //const tile = tilemap.getTile(2,4);
-        //tile.data.set('foo', 'bar')
-        //tile.solid = true
-        //tile.addGraphic(roomSprite)
-        /* cells with 1/2 probability */
         let spawnPos = new Vector(enter.x, enter.y)
 
         const passable = [
@@ -194,12 +190,28 @@ function App () {
 
         map.forEach((cols, col) => {
           cols.forEach((cell, row) => {
-            const grass = ROT.RNG.getItem([28])
+            const grass = ROT.RNG.getItem([
+              3,
+              4,
+              3,
+              4,
+              3,
+              4,
+              3,
+              4,
+              3,
+              4,
+              3,
+              4,
+              5,
+              6,
+              7
+            ])
             const trees = ROT.RNG.getItem([2, 2, 2, 2, 3])
             const grassSprite = spritesheet.getSprite(grass, 0)
             const treesSprite = spritesheet.getSprite(trees, 1)
             const doorSprite = spritesheet.getSprite(1, 9)
-            const spriteScale = new Vector(2, 2)
+            const spriteScale = new Vector(SCALE_FACTOR, SCALE_FACTOR)
             grassSprite.scale = spriteScale
             treesSprite.scale = spriteScale
             doorSprite.scale = spriteScale
@@ -207,10 +219,9 @@ function App () {
             if (tile) {
               const solid = !passable.includes(cell)
               const door = cell === tileDef.ENTER
-              if (solid)
-                tile.addGraphic(
-                  door ? doorSprite : solid ? treesSprite : grassSprite
-                )
+              tile.addGraphic(
+                door ? doorSprite : solid ? treesSprite : grassSprite
+              )
               tile.solid = solid
             }
           })
@@ -226,7 +237,7 @@ function App () {
 
         // control player with wasd keys
         game.input.keyboard.on('hold', evt => {
-          const speed = 10
+          const speed = 100
           const dir = new Vector(0, 0)
           switch (evt.key) {
             case 'KeyW':
@@ -302,23 +313,19 @@ class Dude extends Actor {
       y: spawnPos.y * tileSize + tileSize / 2,
       width: 1,
       height: 1,
-      color: Color.White
+      color: Color.White,
+      scale: new Vector(SCALE_FACTOR, SCALE_FACTOR)
     })
     this.idleAnim = Resources.dude.getAnimation('idle')
     this.frontAnim = Resources.dude.getAnimation('front walk')
     this.sideAnim = Resources.dude.getAnimation('side walk')
     this.backAnim = Resources.dude.getAnimation('back run')
-    
+
     this.graphics.use(this.idleAnim)
   }
   onPreUpdate () {
     const { vel } = this
 
-
-    if (vel.y !== 0)
-      this.graphics.use(vel.y < 0 ? this.backAnim : this.frontAnim)
-    if (vel.x === 0 && vel.y === 0) this.graphics.use(this.idleAnim)
-    
     if (vel.x !== 0) {
       this.graphics.use(this.sideAnim)
       if (vel.x > 0) {
@@ -327,13 +334,15 @@ class Dude extends Actor {
         this.sideAnim.flipHorizontal = false
       }
     }
+    if (vel.y !== 0)
+      this.graphics.use(vel.y < 0 ? this.backAnim : this.frontAnim)
+    if (vel.x === 0 && vel.y === 0) this.graphics.use(this.idleAnim)
 
-    if ( this.vel.x < 5 && this.vel.x > -5) this.vel.x = 0
-    if ( this.vel.y < 5 && this.vel.y > -5) this.vel.y = 0
-    
+    if (this.vel.x < 5 && this.vel.x > -5) this.vel.x = 0
+    if (this.vel.y < 5 && this.vel.y > -5) this.vel.y = 0
+
     this.vel.x = this.vel.x * 0.9
     this.vel.y = this.vel.y * 0.9
-    
   }
 }
 
