@@ -1,5 +1,5 @@
 { "frames": {
-   "beard dude 3 0.aseprite": {
+   "beard dude 4 0.aseprite": {
     "frame": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -7,7 +7,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 1.aseprite": {
+   "beard dude 4 1.aseprite": {
     "frame": { "x": 32, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -15,7 +15,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 2.aseprite": {
+   "beard dude 4 2.aseprite": {
     "frame": { "x": 64, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -23,7 +23,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 3.aseprite": {
+   "beard dude 4 3.aseprite": {
     "frame": { "x": 32, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -31,7 +31,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 4.aseprite": {
+   "beard dude 4 4.aseprite": {
     "frame": { "x": 32, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -39,7 +39,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 5.aseprite": {
+   "beard dude 4 5.aseprite": {
     "frame": { "x": 32, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -47,7 +47,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 6.aseprite": {
+   "beard dude 4 6.aseprite": {
     "frame": { "x": 32, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -55,7 +55,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 7.aseprite": {
+   "beard dude 4 7.aseprite": {
     "frame": { "x": 96, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -63,7 +63,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 8.aseprite": {
+   "beard dude 4 8.aseprite": {
     "frame": { "x": 128, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -71,7 +71,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 9.aseprite": {
+   "beard dude 4 9.aseprite": {
     "frame": { "x": 0, "y": 32, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -79,7 +79,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 10.aseprite": {
+   "beard dude 4 10.aseprite": {
     "frame": { "x": 32, "y": 32, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -87,7 +87,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 11.aseprite": {
+   "beard dude 4 11.aseprite": {
     "frame": { "x": 64, "y": 32, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -95,7 +95,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 12.aseprite": {
+   "beard dude 4 12.aseprite": {
     "frame": { "x": 96, "y": 32, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -103,7 +103,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 13.aseprite": {
+   "beard dude 4 13.aseprite": {
     "frame": { "x": 128, "y": 32, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -111,7 +111,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 14.aseprite": {
+   "beard dude 4 14.aseprite": {
     "frame": { "x": 0, "y": 64, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -119,7 +119,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 15.aseprite": {
+   "beard dude 4 15.aseprite": {
     "frame": { "x": 32, "y": 64, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -127,7 +127,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 16.aseprite": {
+   "beard dude 4 16.aseprite": {
     "frame": { "x": 64, "y": 64, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -135,7 +135,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 17.aseprite": {
+   "beard dude 4 17.aseprite": {
     "frame": { "x": 96, "y": 64, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -143,7 +143,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 18.aseprite": {
+   "beard dude 4 18.aseprite": {
     "frame": { "x": 128, "y": 64, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -151,7 +151,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 19.aseprite": {
+   "beard dude 4 19.aseprite": {
     "frame": { "x": 0, "y": 96, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -159,7 +159,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 20.aseprite": {
+   "beard dude 4 20.aseprite": {
     "frame": { "x": 32, "y": 96, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -167,7 +167,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 21.aseprite": {
+   "beard dude 4 21.aseprite": {
     "frame": { "x": 64, "y": 96, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -175,7 +175,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 22.aseprite": {
+   "beard dude 4 22.aseprite": {
     "frame": { "x": 96, "y": 96, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -183,7 +183,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 23.aseprite": {
+   "beard dude 4 23.aseprite": {
     "frame": { "x": 128, "y": 96, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -191,7 +191,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 24.aseprite": {
+   "beard dude 4 24.aseprite": {
     "frame": { "x": 0, "y": 128, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -199,7 +199,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 25.aseprite": {
+   "beard dude 4 25.aseprite": {
     "frame": { "x": 32, "y": 128, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -207,7 +207,7 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 26.aseprite": {
+   "beard dude 4 26.aseprite": {
     "frame": { "x": 64, "y": 128, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -215,8 +215,16 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 250
    },
-   "beard dude 3 27.aseprite": {
+   "beard dude 4 27.aseprite": {
     "frame": { "x": 96, "y": 128, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+    "sourceSize": { "w": 32, "h": 32 },
+    "duration": 250
+   },
+   "beard dude 4 28.aseprite": {
+    "frame": { "x": 128, "y": 128, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
@@ -233,16 +241,14 @@
   "scale": "1",
   "frameTags": [
    { "name": "idle", "from": 1, "to": 8, "direction": "forward" },
-   { "name": "Loop", "from": 9, "to": 12, "direction": "forward" },
-   { "name": "side walk", "from": 9, "to": 12, "direction": "forward" },
-   { "name": "back run", "from": 13, "to": 14, "direction": "forward" },
-   { "name": "front walk", "from": 15, "to": 19, "direction": "forward" },
-   { "name": "front run", "from": 22, "to": 27, "direction": "forward" }
+   { "name": "side walk", "from": 9, "to": 13, "direction": "forward" },
+   { "name": "back run", "from": 14, "to": 15, "direction": "forward" },
+   { "name": "front walk", "from": 16, "to": 20, "direction": "forward" },
+   { "name": "front run", "from": 23, "to": 28, "direction": "forward" }
   ],
   "layers": [
    { "name": "Layer 2", "opacity": 255, "blendMode": "normal" },
-   { "name": "Layer 3", "opacity": 255, "blendMode": "normal" },
-   { "name": "Layer 4", "opacity": 255, "blendMode": "normal" }
+   { "name": "Layer 5", "opacity": 255, "blendMode": "normal" }
   ],
   "slices": [
   ]
