@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/seekers-of-byergur/static/css/main.e6c13ad2.css",
-    "main.js": "/seekers-of-byergur/static/js/main.c88ce66c.js",
+    "main.js": "/seekers-of-byergur/static/js/main.845456b8.js",
     "static/js/787.e75f7d45.chunk.js": "/seekers-of-byergur/static/js/787.e75f7d45.chunk.js",
     "static/media/colored_transparent.png": "/seekers-of-byergur/static/media/colored_transparent.e4db859d2f2e6eed7eb9.png",
-    "static/media/colored_packed.png": "/seekers-of-byergur/static/media/colored_packed.7cce42ad4e91b8392b87.png",
+    "static/media/dude in walls.png": "/seekers-of-byergur/static/media/dude in walls.b439ef3f2395b4595c7c.png",
     "index.html": "/seekers-of-byergur/index.html",
     "main.e6c13ad2.css.map": "/seekers-of-byergur/static/css/main.e6c13ad2.css.map",
-    "main.c88ce66c.js.map": "/seekers-of-byergur/static/js/main.c88ce66c.js.map",
+    "main.845456b8.js.map": "/seekers-of-byergur/static/js/main.845456b8.js.map",
     "787.e75f7d45.chunk.js.map": "/seekers-of-byergur/static/js/787.e75f7d45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.c88ce66c.js"
+    "static/js/main.845456b8.js"
   ]
 }
